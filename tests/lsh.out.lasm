@@ -1,0 +1,33 @@
+function main
+	.lineDefined 1
+	.lastLineDefined 6
+	.numParams 0
+	.isVararg 0
+	.maxStackSize 5
+
+	.constants 2
+4 \112\114\105\110\116
+3 1.0
+
+CLOSURE 0 0 
+GETTABUP 1 0 256 
+MOVE 2 0 0 
+LOADK 3 1 
+LOADK 4 1 
+CALL 2 3 0 
+CALL 1 0 1 
+RETURN 0 1 0 
+
+function main/0
+	.lineDefined 2
+	.lastLineDefined 4
+	.numParams 2
+	.isVararg 0
+	.maxStackSize 3
+
+	.constants 0
+
+SHL 2 0 1 
+RETURN 2 2 0 
+RETURN 0 1 0 
+
